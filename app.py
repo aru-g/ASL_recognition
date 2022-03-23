@@ -15,7 +15,7 @@ import cv2
 st.title("Real Time Detection and Identification of American Sign Language")
 
 print("loading yolo...")
-yolo = YOLO("models/cross-hands.cfg", "models/cross-hands.weights", ["hand"])
+yolo = YOLO("models/cross-hands-tiny-prn.cfg", "models/cross-hands-tiny-prn.weights", ["hand"])
 
 labels_dict = {'A':0,'B':1,'C':2,'D':3,'E':4,'F':5,'G':6,'H':7,'I':8,'J':9,'K':10,'L':11,'M':12,
                    'N':13,'O':14,'P':15,'Q':16,'R':17,'S':18,'T':19,'U':20,'V':21,'W':22,'X':23,'Y':24,
